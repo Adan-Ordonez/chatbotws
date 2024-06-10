@@ -12,10 +12,10 @@ const main = async () => {
 
 
 
-    createBot({
-        provider: adapterProvider,
-        database: adapterDB,
-    })
+//    createBot({
+//        provider: adapterProvider,
+//        database: adapterDB,
+//    })
 
     httpserver.start()
 
